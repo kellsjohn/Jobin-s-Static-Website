@@ -1,0 +1,25 @@
+.section-body{
+    background-color:rgb(46, 46, 49) ;
+    height: 37em;
+}
+.brand{
+    padding-left: 1em;
+    margin-top: 1rem;
+}
+.text-1{
+    font-size: 45px;
+    padding-top: 3em;
+    ;
+}
+.text-2{
+    color: greenyellow;
+    font: size 50px;
+    
+}
+.blockquote{
+    color: rgb(230, 230, 230);
+    padding-top: 1em;
+}
+.text{
+    
+}

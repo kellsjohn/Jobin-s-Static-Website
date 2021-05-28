@@ -108,3 +108,24 @@ h6{
 #cards{
     height: 17em;   
 }
+#glass-butto{
+    background: rgba(70, 70, 77, 0);
+    border: none;
+
+}
+#glass-butto{
+    width: 80%;
+    padding: 15px 0;
+    position: absolute;
+    left: 10%;
+    top: 240px;
+    border-radius: 5px;
+    outline: none;
+}
+.primary-tex{
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin: 5px 0;
+}

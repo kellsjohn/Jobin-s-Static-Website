@@ -1,6 +1,6 @@
 .section-body{
     background-color:rgb(46, 46, 49) ;
-    height: 40em;
+    height: auto;
 }
 .brand{
     padding-left: 1em;
@@ -20,7 +20,7 @@
     color: rgb(230, 230, 230);
     padding-top: 1em;
 }
-.row .col-md-12 .card{
+.row .card{
     height: 400px;
     width: 320px;
     background: rgba(95, 95, 109, 0.178); 
@@ -71,7 +71,7 @@ h6{
     margin: 5px 0;
 }
 #glass-button{
-    background: rgba(92, 92, 104, 0.438);
+    background: rgba(70, 70, 77, 0.438);
     border: none;
 
 }
@@ -104,4 +104,7 @@ h6{
     top: 240px;
     border-radius: 5px;
     outline: none;
+}
+#cards{
+    height: 17em;   
 }

@@ -9,7 +9,7 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
-<body>
+<body style="scroll-behavior: smooth;">
     <header class="bg-dark position-fixed" style="width:100%; z-index: 1;">
         <div class="row text-white m-auto">
             <div class="col-md-8 col-8 p-" >
@@ -52,7 +52,7 @@
                     <img src="jobin.jpg" class="img-fluid img-thumbnail rounded-circle m-" alt="">
                 </div>
                 <div class="col-md-6 text-white p-5 mb-5">
-                    <div class="text-1">I am a <span class="typing text-2"></span>
+                    <div class="text-1">I am a <span class="typing text-2" style="color: greenyellow;"></span>
                         <blockquote class="blockquote">
                             <p>"root@kells~# whoami"</p>
                             <footer>- Jobin John</footer>
@@ -191,7 +191,7 @@
         <div class="container">
             <h2 class="text-white text-center p-5 my-auto">EXPERIENCES</h2>
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="card m-5">
                         <div class="card-img">
                             <img src="data:image/png;base64,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">
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card m-5">
                         <div class="card-img">
                             <img src="https://image.shutterstock.com/image-vector/accounting-logo-design-260nw-604530587.jpg">
@@ -276,8 +276,12 @@
     <footer class="bg-dark" style="width: 100%;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="secondary-text text-center">Copyright © 2021 kellsoft</p>
+                <div class="col-md-12 text-center">
+                    <i class="fab fa-instagram" style="color: honeydew;">
+                    <i class="fab fa-facebook text-center" style="color: honeydew;"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <p class="secondary-text">Copyright © 2021 kellsoft</p>  
+                </i>
                 </div>
             </div>
         </div>
@@ -286,5 +290,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5b5261054d.js" crossorigin="anonymous"></script>
 </body>
 </html>

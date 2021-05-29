@@ -6,23 +6,25 @@
     padding-left: 1em;
     margin-top: 1rem;
 }
+@media screen and (max-width: 600px) {
 .text-1{
-    font-size: 45px;
-    padding-top: 3em;
-    ;
+    font-size: 25px;
+    padding-top: 1em;
 }
+}
+@media screen and (min-width: 601px){
 .text-2{
     color: greenyellow;
-    font: size 50px;
-    
+    font-size: 40px;
+}
 }
 .blockquote{
     color: rgb(230, 230, 230);
     padding-top: 1em;
+    font-size: 1vw;
 }
 .row .card{
-    height: 400px;
-    width: 320px;
+    height: 400px;   
     background: rgba(95, 95, 109, 0.178); 
     border-radius: 8px;
     -webkit-box-shadow: 20px 20px 22px rgba(75, 70, 70, 0.185);
@@ -128,4 +130,7 @@ h6{
     font-weight: 600;
     letter-spacing: 0.7px;
     margin: 5px 0;
+}
+body{
+    margin: 0;
 }

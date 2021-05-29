@@ -142,13 +142,13 @@ body{
     margin-left: -3em;
 }
 .service{
-    background-image: url("service.jpg");
+    background-image: url("images/service.jpg");
     height: auto;
 }
 .skill{
-    background-image: url('skill.jpg');
+    background-image: url('images/skill.jpg');
 }
 .bg{
     background-color: rgba(197, 184, 184, 0.336);
-    background-image: url('service.jpg');
+    background-image: url('images/service.jpg');
 }

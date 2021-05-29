@@ -134,3 +134,21 @@ h6{
 body{
     margin: 0;
 }
+.profile{
+    height: 370px;
+    width: 340px;
+    padding-left: 7em;
+    padding-top: 3em;
+    margin-left: -3em;
+}
+.service{
+    background-image: url("service.jpg");
+    height: auto;
+}
+.skill{
+    background-image: url('skill.jpg');
+}
+.bg{
+    background-color: rgba(197, 184, 184, 0.336);
+    background-image: url('service.jpg');
+}

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobinJohn</title>
     <link sizes="16x16" rel="icon" type="image/gif" href="images/jobin.jpg">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>JobinJohn</title>
 </head>
 <body style="scroll-behavior: smooth;">
     <header class="bg-dark position-fixed" style="width:100%; z-index: 1;">
@@ -245,33 +245,35 @@
         <div class="container">
             <h2 class="text-white text-center p-2 my-auto">Contact Me</h2>
             <div class="row">
-                <div class="col-md-12 p-3">
-                    <div class="row g-2">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                <form id="submit-form" action="">
+                    <div class="col-md-12 p-3">
+                        <div class="row g-2">   
+                            <div class="col">
+                            <input id="submit-form" type="text" class="form-control" name="name" placeholder="Name" aria-label="Name">
+                            </div>
+                            <div class="col">
+                            <input id="submit-form" type="email" class="form-control" name="email" placeholder="Email" aria-label="Email">
+                            </div>                      
                         </div>
-                        <div class="col">
-                          <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    
+                    <div class="col-md-12 p-3">
+                        <div class="row g-2">
+                            <div class="col">
+                            <input type="text" class="form-control" name="place" placeholder="Place" aria-label="Place">
+                            </div>
+                            <div class="col">
+                            <input type="tel" class="form-control" name="mobile" placeholder="Mobile" aria-label="Mobile">
+                            </div>
                         </div>
-                      </div>
-                </div>
-                
-                <div class="col-md-12 p-3">
-                    <div class="row g-2">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Place" aria-label="Place">
-                        </div>
-                        <div class="col">
-                          <input type="tel" class="form-control" placeholder="Mobile" aria-label="Mobile">
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-12 p-3">
-                    <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
-                </div>
-                <div class="col-12 text-center m-2">
-                    <button type="submit" class="btn btn-danger">Submit</button>
-                  </div>
+                    </div>
+                    <div class="col-md-12 p-3">
+                        <textarea class="form-control" cols="30" rows="10" name="message" placeholder="Type your message here..."></textarea>
+                    </div>
+                    <div class="col-12 text-center m-2">
+                        <button id="submit-form" type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -290,10 +292,11 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/5b5261054d.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </body>
 </html>
